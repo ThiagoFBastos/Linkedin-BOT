@@ -58,7 +58,9 @@ sua nota, de 1 (muito ruim) a 5 (muito bom), baseada somente nessas keywords.
 - search: simple se usa a tabela skills.csv ou se usa o dataset de exemplos
 - cutoff: se search é simple, então só aceita se a soma dos pesos das keywords truncado para inteiro presente no texto não é menor que cutoff, senão se é ml todos os posts com peso maior ou igual a cutoff são os únicos exemplos que podem ser aceitos (todos os outros não são aceitos)
 
-3. Espere terminar e abra o arquivo de saída (output). Ele contém algumas informações do post:
+3. abra o terminal e insira: python3 bot.py
+
+4. espere terminar e abra o arquivo de saída (output). Ele contém algumas informações do post:
 - urn_id: id do post
 - jobtitle: título do post
 - url: url do post

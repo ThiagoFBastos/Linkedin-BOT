@@ -8,11 +8,15 @@ tmp/LINGUAGENS.json
 tmp/pag.html
 tmp/params.json
 tmp/saida
-tmp/SGDBS.json
+tmp/SGBDS.json
 tmp/tools.json
 tmp/TOOLS.txt
+tmp/endpoints
+tmp/linkedin.py
+tmp/filter_keywords.json
 dbdata/*
 fake_params.json
 linkedin (cópia).py
 entrada
 code.py
+
