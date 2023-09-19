@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_DB: linkedin
+      POSTGRES_USER: thiago
+      POSTGRES_PASSWORD: 1123581321345589
+    volumes:
+      - ./dbdata:/var/lib/postgresql/data
+      - ./linkedin.sql:/docker-entrypoint-initdb.d/linkedin.sql
+    ports:
+      - 5432:5432

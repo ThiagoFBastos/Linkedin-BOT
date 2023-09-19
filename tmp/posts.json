@@ -1,0 +1,1827 @@
+{
+    "data": [
+        {
+            "title" : "conjunto ruim 6",
+            "weight" : 1,
+            "keywords" : [
+               "git"
+            ]
+        },
+        {
+            "title" : "conjunto bom 1",
+            "weight" : 5,
+            "keywords" : [
+                "html",
+                "css",
+                "git",
+                "github",
+                "javascript"
+            ]
+        },
+        {
+            "title" : "conjunto ruim 5",
+            "weight" : 1,
+            "keywords" : [
+                "angular",
+                "ionic",
+                "restjs",
+                "reactjs",
+                "git",
+                "inglês básico"
+            ]
+        },
+        {
+            "title" : "conjunto ruim 4",
+            "weight" : 1,
+            "keywords" : [
+                "html",
+                "css",
+                "git",
+                "github"
+            ]
+        },
+        {
+            "title" : "conjunto ruim 3",
+            "weight" : 1,
+            "keywords" : [
+                "php",
+                "sql",
+                "mysql",
+                "javascript",
+                "html",
+                "css"
+            ]
+        },
+        {
+            "title" : "conjunto ruim 2",
+            "weight" : 1,
+            "keywords" : [
+                "inglês básico",
+                "metodologias ageis",
+                "git",
+                "github"
+            ]
+        },
+        {
+            "title" : "conjunto ruim 1",
+            "weight" : 1,
+            "keywords" : [
+                "git",
+                "metodologias ageis",
+                "scrum",
+                "kanban",
+                "lean",
+                "Extreme Programming"
+            ]
+        },
+        {
+            "title" : "conjunto ruim 1",
+            "weight" : 1,
+            "keywords" : [
+                "git",
+                "metodologias ageis",
+                "scrum",
+                "kanban",
+                "lean",
+                "Extreme Programming"
+            ]
+        },
+        {
+            "title" : "Pessoa Desenvolvedora Back-end Python (Remoto) Pleno",
+            "weight" : 1,
+            "keywords" : [
+                "python",
+                "numpy",
+                "pandas",
+                "django",
+                "scrapy",
+                "selenium",
+                "pleno",
+                "inglês intermediário",
+                "ci/cd"
+            ]
+        },
+        {
+            "title" : "Pessoa Desenvolvedora Back-end Python (Remoto) Pleno",
+            "weight" : 1,
+            "keywords" : [
+                "python",
+                "numpy",
+                "pandas",
+                "django",
+                "scrapy",
+                "selenium",
+                "pleno",
+                "inglês básico",
+                "ci/cd"
+            ]
+        },
+        {
+            "title" : "Pessoa Desenvolvedora Back-end Python (Remoto) Pleno",
+            "weight" : 1,
+            "keywords" : [
+                "python",
+                "numpy",
+                "pandas",
+                "django",
+                "scrapy",
+                "selenium",
+                "pleno",
+                "inglês fluente",
+                "ci/cd"
+            ]
+        },
+        {
+            "title" : "Programador Python Jr",
+            "weight" : 1,
+            "keywords" : [
+                "jr",
+                "python",
+                "fastapi",
+                "django",
+                "flask",
+                "git", 
+                "sql",
+                "nosql",
+                "mongodb",
+                "pandas",
+                "numpy",
+                "matplotlib"
+            ]
+        },
+        {
+            "title" : "Programador Web Junior",
+            "weight" : 1,
+            "keywords" : [
+                "javascript", 
+                "python", 
+                "tensorflow", 
+                "pytorch", 
+                "scikit",   
+                "sql", 
+                "ciência da computação",
+                "jr"
+            ]
+        },
+        {
+            "title" : "Desenvolvedor Full Stack Jr",
+            "weight" : 1,
+            "keywords" : [
+                "jr",
+                "fullstack",
+                "node",
+                "angular",
+                "python",
+                "javascript"
+            ]
+        },
+        {
+            "title" : "Desenvolvedor Full Stack",
+            "weight" : 1,
+            "keywords" : [
+                "inglês fluente",
+                "fullstack",
+                "python",
+                "django",
+                "react",
+                "mysql",
+                "docker",
+                "RabbitMQ"
+            ]
+        },
+        {
+            "title" : "Software Engineer (Python para web / Pleno) - 100% Remoto - Full Stack",
+            "weight" : 3,
+            "keywords" : [
+                "git",
+                "postgresql", 
+                "python", 
+                "django"
+            ]
+        },
+        {
+            "title" : "Programador python",
+            "weight" : 1,
+            "keywords" : [
+                "python", 
+                "git",
+                "django",
+                "postgresql",
+                "frontend",
+                "html",
+                "css",
+                "jquery",
+                "bootstrap",
+                "mongodb",
+                "flask",
+                "golang",
+                "vuejs",
+                "gcp",
+                "redis"
+            ]
+        },
+        {
+            "title" : "DESENVOLVEDOR PYTHON",
+            "weight" : 1,
+            "keywords" : [
+                "python", 
+                "django", 
+                "restjs", 
+                "metodologias ageis", 
+                "inglês intermediário", 
+                "docker"
+            ]
+        },
+        {
+            "title" : "Desenvolvedor Python",
+            "weight" : 2,
+            "keywords" : [
+                "Ciências da Computação", 
+                "python", 
+                "flask", 
+                "frontend", 
+                "html",
+                "css", 
+                "react", 
+                "postgres",
+                "inglês básico"
+            ]
+        },
+        {
+            "title" : "Desenvolvedor Python",
+            "weight" : 1,
+            "keywords" : [
+                "Ciências da Computação", 
+                "python", 
+                "flask", 
+                "frontend", 
+                "html",
+                "css", 
+                "react", 
+                "postgres",
+                "inglês fluente"
+            ]
+        },
+        {
+            "title" : "Desenvolvedor Python",
+            "weight" : 2,
+            "keywords" : [
+                "Ciências da Computação", 
+                "python", 
+                "flask", 
+                "frontend", 
+                "html",
+                "css", 
+                "react", 
+                "postgres"
+            ]
+        },
+        {
+            "title" : "Programador Python Junior",
+            "weight" : 3,
+            "keywords" : [
+                "php", 
+                "html", 
+                "css", 
+                "javascript", 
+                "mysql", 
+                "git", 
+                "jr", 
+                "python"
+            ]
+        },
+        {
+            "title" : "Desenvolvedor(a) Python para Web Pleno - 100% Remoto - Back-End",
+            "weight" : 1,
+            "keywords" : [
+                "flask",
+                "javascript",
+                "reactjs", "aws", "ionic", "wordpress", "inglÊs intermediário", "pleno", "backend", "postgresql", "nosql"
+            ]
+        },
+        {
+            "title" : "Desenvolvedor Back End (Python) Jr",
+            "weight" : 2,
+            "keywords" : [
+                "jr",
+                "python",
+                "backend",
+                "scrum",
+                "javascript",
+                "vuejs",
+                "html",
+                "css",
+                "git"
+            ]
+        },
+        {
+            "title" : "PontoTel - Desenvolvedor Back End Jr (Remoto)",
+            "weight" : 3,
+            "keywords" : [
+                "backend",
+                "jr",
+                "javascript",
+                "vuejs",
+                "html",
+                "css",
+                "git"   
+            ]
+        },
+        {
+            "title" : "Desenvolvedor .Net",
+            "weight" : 1,
+            "keywords" : [
+                "c#",
+                "git",
+                "asp.net",
+                "sql",
+                "javascript",
+                "jquery",
+                "html",
+                "css",
+                "bootstrap",
+                ".net core",
+                "react.js",
+                "scrum"
+            ]
+        },
+        {
+            "title" : "DESENVOLVEDOR JAVA JR / PL",
+            "weight" : 1,
+            "keywords" : [
+                "java",
+                "jr",
+                "pleno",
+                "angular",
+                "html",
+                "css",
+                "bootstrap",
+                "mysql",
+                "springboot"
+            ]
+        },
+        {
+            "title" : "Desenvolvedor Junior",
+            "weight" : 1,
+            "keywords" : [
+                "jr",
+                "SCRUM",
+                "Nodejs",
+                "javascript",
+                ".net core",
+                "c#",
+                "html",
+                "css",
+                "sql",
+                "github"
+            ]
+        },
+        {
+            "title" : "Desenvolvedor Front-End e React Júnior",
+            "weight" : 2,
+            "keywords" : [
+                "jr",
+                "html",
+                "css",
+                "javascript",
+                "git",
+                "react",
+                "front-end"
+            ]
+        },
+        {
+            "title" : "Programador Júnior",
+            "weight" : 1,
+            "keywords" : [
+                "jr",
+                "css",
+                "html",
+                "bootstrap",
+                "java",
+                "jquery",
+                "nodejs",
+                "aws"
+            ]
+        },
+        {
+            "title" : "Desenvolvedor(a) Java Júnior",
+            "weight" : 1,
+            "keywords" : [
+                "java",
+                "jr",
+                "spring boot",
+                "git",
+                "aws",
+                "metodologia ágil",
+                "react",
+                "python",
+                "backend"
+            ]
+        },
+        {
+            "title" : "Desenvolvedor - IBM",
+            "weight" : 1,
+            "keywords" : [
+                "java",
+                "sql",
+                "oracle",
+                "front-end",
+                "back-end",
+                "fullstack"
+            ]
+        },
+        {
+            "title" : "Desenvolvedor(a) .NET - JR - Full Stack",
+            "weight" : 1,
+            "keywords" : [
+                "ASP.NET",
+                "C#",
+                "jQuery",
+                "Git",
+                "SQL Server",
+                "jr",
+                "html",
+                "css",
+                "javascript",
+                "fullstack"
+            ]
+        },
+        {
+            "title" : "Desenvolvedor de Software junior",
+            "weight" : 1,
+            "keywords" : [
+                "jr",
+                "PHP",
+                "HTML",
+                "css",
+                "javascript",
+                "jquery",
+                "WordPress",
+                "sql",
+                "laravel",
+                "mariadb",
+                "postgresql",
+                "git"
+            ]
+        },
+        {
+            "title" : "Desenvolvedor Web Júnior",
+            "weight" : 1,
+            "keywords" : [
+                "jr",
+                "PHP",
+                "laravel",
+                "Javascript",
+                "React",
+                "html",
+                "css",
+                "SQL"
+            ]
+        },
+        {
+            "title" : "Desenvolvedor Jr",
+            "weight" : 1,
+            "keywords" : [
+                "jr",
+                "React",
+                "html",
+                "css",
+                "js",
+                "JQuery",
+                "php",
+                "git",
+                "sql",
+                "Bootstrap"
+            ]
+        },
+        {
+            "title" : "Analista Desenvolvedor Junior",
+            "weight" : 1,
+            "keywords" : [
+                "SQL",
+                "PL/SQL",
+                "python",
+                "business intelligence",
+                "jr"
+            ]
+        },
+        {
+            "title" : "Desenvolvedor(a) Júnior - Full Stack",
+            "weight" : 2,
+            "keywords" : [
+                "PHP",
+                "Wordpress",
+                "front-end",
+                "back-end",
+                "jr",
+                "fullstack"
+            ]
+        },
+        {
+            "title": "Desenvolvedor(a) Javascript J\u00fanior",
+            "weight": 1,
+            "keywords": [
+                "Javascript",
+                "jr",
+                "Mysql",
+                "spring boot",
+                "GIT"
+            ]
+        },
+        {
+            "title": "Desenvolvedor(a) Javascript J\u00fanior - Front-End",
+            "weight": 1,
+            "keywords": [
+                "git",
+                "css",
+                "html",
+                "javascript",
+                "ionic",
+                "angular",
+                "Front-End",
+                "jr",
+                "Cordova",
+                "RESTful",
+                "Gulp",
+                "VueJS",
+                "GitHub"
+            ]
+        },
+        {
+            "title": "Banco de Talento | Engenheiro de Dados J\u00fanior",
+            "weight": 4,
+            "keywords": [
+                "Ci\u00eancia da Computa\u00e7\u00e3o",
+                "Python",
+                "Pandas",
+                "git",
+                "Ingl\u00eas Intermedi\u00e1rio"
+            ]
+        },
+        {
+            "title": "Analista de dados j\u00fanior",
+            "weight": 2,
+            "keywords": [
+                "Power BI",
+                "SQL",
+                "python",
+                "estat\u00edstica",
+                "j\u00fanior"
+            ]
+        },
+        {
+            "title": "Pessoa Desenvolvedora Fullstack JR",
+            "weight": 4,
+            "keywords": [
+                "FrontEnd",
+                "js",
+                "html",
+                "css",
+                "python",
+                "BackEnd",
+                "M\u00e9todos \u00e1geis",
+                "jr",
+                "iniciação científica"
+            ]
+        },
+        {
+            "title": "Pessoa Desenvolvedora Fullstack JR",
+            "weight": 4,
+            "keywords": [
+                "FrontEnd",
+                "js",
+                "html",
+                "css",
+                "python",
+                "BackEnd",
+                "M\u00e9todos \u00e1geis",
+                "jr"
+            ]
+        },
+        {
+            "title": "Interc\u00e2mbio Profissional Est\u00e1giario Analista De Dados Associado",
+            "weight": 2,
+            "keywords": [
+                "python",
+                "pandas",
+                "numpy",
+                "matplotlib",
+                "PowerQuery"
+            ]
+        },
+        {
+            "title": "Trabalhe De Casa Desenvolvedora/Engenheira Python",
+            "weight": 2,
+            "keywords": [
+                "python",
+                "django",
+                "ingl\u00eas avan\u00e7ado",
+                "SQL"
+            ]
+        },
+        {
+            "title": "inv\u00ean\u00e7\u00e3o 4",
+            "weight": 3,
+            "keywords": [
+                "python",
+                "sql",
+                "mysql",
+                "postgresql",
+                "mariadb",
+                "oracle",
+                "Microsoft Access",
+                "SQLite",
+                "inglês intermediário"
+            ]
+        },
+        {
+            "title": "inv\u00ean\u00e7\u00e3o 4",
+            "weight": 1,
+            "keywords": [
+                "python",
+                "sql",
+                "mysql",
+                "postgresql",
+                "mariadb",
+                "oracle",
+                "Microsoft Access",
+                "SQLite",
+                "inglês fluente"
+            ]
+        },
+        {
+            "title": "inv\u00ean\u00e7\u00e3o 4",
+            "weight": 1,
+            "keywords": [
+                "python",
+                "sql",
+                "mysql",
+                "postgresql",
+                "mariadb",
+                "oracle",
+                "Microsoft Access",
+                "SQLite",
+                "java"
+            ]
+        },
+        {
+            "title": "inv\u00ean\u00e7\u00e3o 4",
+            "weight": 5,
+            "keywords": [
+                "python",
+                "sql",
+                "mysql",
+                "postgresql",
+                "mariadb",
+                "oracle",
+                "Microsoft Access",
+                "SQLite"
+            ]
+        },
+        {
+            "title": "inv\u00ean\u00e7\u00e3o 3",
+            "weight": 3,
+            "keywords": [
+                "python",
+                "C++",
+                "C language",
+                "javascript",
+                "sql",
+                "inglês intermediário"
+            ]
+        },
+        {
+            "title": "inv\u00ean\u00e7\u00e3o 3",
+            "weight": 1,
+            "keywords": [
+                "python",
+                "C++",
+                "C language",
+                "javascript",
+                "sql",
+                "java"
+            ]
+        },
+        {
+            "title": "inv\u00ean\u00e7\u00e3o 3",
+            "weight": 5,
+            "keywords": [
+                "python",
+                "C++",
+                "C language",
+                "javascript",
+                "sql"
+            ]
+        },
+        {
+            "title": "inv\u00ean\u00e7\u00e3o 3",
+            "weight": 5,
+            "keywords": [
+                "python",
+                "C++",
+                "C language",
+                "javascript",
+                "sql"
+            ]
+        },
+        {
+            "title": "inv\u00ean\u00e7\u00e3o 2",
+            "weight": 5,
+            "keywords": [
+                "python",
+                "estruturas de dados",
+                "ingl\u00eas b\u00e1sico",
+                "sql",
+                "mysql",
+                "postgresql"
+            ]
+        },
+        {
+            "title": "inv\u00ean\u00e7\u00e3o 1",
+            "weight": 1,
+            "keywords": [
+                "python",
+                "sql",
+                "selenium",
+                "crawler",
+                "rpa",
+                "git",
+                "github",
+                "beautifulsoup",
+                "java"
+            ]
+        },
+        {
+            "title": "inv\u00ean\u00e7\u00e3o 1",
+            "weight": 5,
+            "keywords": [
+                "python",
+                "sql",
+                "selenium",
+                "crawler",
+                "rpa",
+                "git",
+                "github",
+                "beautifulsoup"
+            ]
+        },
+        {
+            "title": "[LOG\u00cdSTICA] Analista de Dados PL - Rio de Janeiro/RJ",
+            "weight": 5,
+            "keywords": [
+                "python",
+                "sql",
+                "ci\u00eancia da computa\u00e7\u00e3o",
+                "postgresql",
+                "mysql"
+            ]
+        },
+       {
+            "title": "Pessoa Desenvolvedora em Python Jr - editado",
+            "weight": 5,
+            "keywords": [
+                "Python",
+                "pandas",
+                "matplotlib",
+                "numpy",
+                "SQL",
+                "postgresql",
+                "mysql",
+                "inglês básico"
+            ]
+        },
+        {
+            "title": "Pessoa Desenvolvedora em Python Jr - editado",
+            "weight": 5,
+            "keywords": [
+                "Python",
+                "pandas",
+                "matplotlib",
+                "numpy",
+                "SQL",
+                "postgresql",
+                "mysql",
+                "iniciação científica"
+            ]
+        },
+        {
+            "title": "Pessoa Desenvolvedora em Python Jr - editado",
+            "weight": 5,
+            "keywords": [
+                "Python",
+                "pandas",
+                "matplotlib",
+                "numpy",
+                "SQL",
+                "postgresql",
+                "mysql"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Full stack J\u00fanior",
+            "weight": 5,
+            "keywords": [
+                "python",
+                "github",
+                "sql",
+                "ci\u00eancia da computa\u00e7\u00e3o"
+            ]
+        },
+        {
+            "title": "Automa\u00e7\u00e3o e Dados - Visagio",
+            "weight": 1,
+            "keywords": [
+                "RPA",
+                "metodologias \u00e1geis",
+                "Kanban",
+                "Scrum",
+                "inicia\u00e7\u00e3o cient\u00edfica",
+                "java"
+            ]
+        },
+        {
+            "title": "Automa\u00e7\u00e3o e Dados - Visagio",
+            "weight": 5,
+            "keywords": [
+                "RPA",
+                "metodologias \u00e1geis",
+                "Kanban",
+                "Scrum",
+                "inicia\u00e7\u00e3o cient\u00edfica"
+            ]
+        },
+        {
+            "title": "Analista RPA JR - Cyrela",
+            "weight": 1,
+            "keywords": [
+                "Automation Anywhere",
+                "VBA",
+                "Selenium",
+                "Phyton",
+                "RPA",
+                "jr"
+            ]
+        },
+        {
+            "title": "Desenvolvedor(a) em Python (Plataforma de Dados)",
+            "weight": 1,
+            "keywords": [
+                "Python",
+                "SQL",
+                "business intelligence",
+                "PySpark",
+                "Databricks",
+                "Azure"
+            ]
+        },
+        {
+            "title": "Assistente Desenvolvedor (Phyton)",
+            "weight": 1,
+            "keywords": [
+                "Ci\u00eancias da Computa\u00e7\u00e3o",
+                "Python",
+                "Pandas",
+                "Numpy",
+                "SQLAlchemy",
+                "SQL",
+                "Git",
+                "GitHub",
+                "AWS",
+                "Azure",
+                "CI/CD",
+                "Desenvolvimento \u00c1gil de Software"
+            ]
+        },
+        {
+            "title": "python jr",
+            "weight": 1,
+            "keywords": [
+                "Jr",
+                "Python",
+                "pandas",
+                "matplotlib",
+                "numpy",
+                "Power BI",
+                "Docker",
+                "Github",
+                "Mongodb",
+                "metodologias \u00e1geis",
+                "RabbitMQ",
+                "Kafka"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Python Junior",
+            "weight": 5,
+            "keywords": [
+                "jr",
+                "Python",
+                "RPA",
+                "Metodologia \u00e1gil",
+                "scrum",
+                "inglês básico",
+                "iniciação científica"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Python Junior",
+            "weight": 5,
+            "keywords": [
+                "jr",
+                "Python",
+                "RPA",
+                "Metodologia \u00e1gil",
+                "scrum",
+                "inglês básico"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Python Junior",
+            "weight": 1,
+            "keywords": [
+                "jr",
+                "Python",
+                "RPA",
+                "Metodologia \u00e1gil",
+                "scrum",
+                "java"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Python Junior",
+            "weight": 5,
+            "keywords": [
+                "jr",
+                "Python",
+                "RPA",
+                "Metodologia \u00e1gil",
+                "scrum"
+            ]
+        },
+        {
+            "title": "Desenvolvedor j\u00fanior",
+            "weight": 1,
+            "keywords": [
+                "J\u00fanior",
+                "PostgreSQL",
+                "Python",
+                "Ci\u00eancia da Computa\u00e7\u00e3o",
+                "NoSQL",
+                "Git",
+                "Docker",
+                "Kubernetes"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Python(Junior)",
+            "weight": 1,
+            "keywords": [
+                "Python",
+                "Pandas",
+                "Numpy",
+                "SQLAlchemy",
+                "Selenium",
+                "Ci\u00eancias da Computa\u00e7\u00e3o",
+                "Junior",
+                "inglês básico",
+                "java"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Python(Junior)",
+            "weight": 4,
+            "keywords": [
+                "Python",
+                "Pandas",
+                "Numpy",
+                "SQLAlchemy",
+                "Selenium",
+                "Ci\u00eancias da Computa\u00e7\u00e3o",
+                "Junior",
+                "inglês básico"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Python(Junior)",
+            "weight": 4,
+            "keywords": [
+                "Python",
+                "Pandas",
+                "Numpy",
+                "SQLAlchemy",
+                "Selenium",
+                "Ci\u00eancias da Computa\u00e7\u00e3o",
+                "Junior"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Python",
+            "weight": 4,
+            "keywords": [
+                "Python",
+                "SQL",
+                "Shell Script",
+                "inglês básico",
+                "iniciação ciéntifica"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Python",
+            "weight": 4,
+            "keywords": [
+                "Python",
+                "SQL",
+                "Shell Script",
+                "inglês básico"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Python",
+            "weight": 3,
+            "keywords": [
+                "Python",
+                "SQL",
+                "Shell Script",
+                "inglês intermediário"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Python",
+            "weight": 1,
+            "keywords": [
+                "Python",
+                "SQL",
+                "Shell Script",
+                "java"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Python",
+            "weight": 4,
+            "keywords": [
+                "Python",
+                "SQL",
+                "Shell Script"
+            ]
+        },
+        {
+            "title": "Pessoa Engenheira de Solu\u00e7\u00f5es para Data, (Gen)AI & Analytics J\u00fanior / Jr",
+            "weight": 2,
+            "keywords": [
+                "jr",
+                "Estat\u00edstica",
+                "Machine Learning",
+                "Python",
+                "SQL",
+                "Metodologias \u00c1geis",
+                "ingl\u00eas Avan\u00e7ado"
+            ]
+        },
+        {
+            "title": "cientista de dados Jr",
+            "weight": 2,
+            "keywords": [
+                "jr",
+                "Ci\u00eancia da Computa\u00e7\u00e3o",
+                "Python",
+                "SQL",
+                "Ingl\u00eas avan\u00e7ado",
+                "SCRUM"
+            ]
+        },
+        {
+            "title": "python lead",
+            "weight": 2,
+            "keywords": [
+                "Python",
+                "Django",
+                "Oracle",
+                "MS SQL",
+                "MySQL",
+                "Advanced English",
+                "DevOps"
+            ]
+        },
+        {
+            "title": "Data analytics j\u00fanior",
+            "weight": 1,
+            "keywords": [
+                "jr",
+                "Tableau",
+                "Looker",
+                "PowerBI",
+                "SQL",
+                "python",
+                "inglês fluente"
+            ]
+        },
+        {
+            "title": "Data analytics j\u00fanior",
+            "weight": 2,
+            "keywords": [
+                "jr",
+                "Tableau",
+                "Looker",
+                "PowerBI",
+                "SQL",
+                "python"
+            ]
+        },
+        {
+            "title": "Pessoa desenvolvedora web j\u00fanior",
+            "weight": 1,
+            "keywords": [
+                "Python",
+                "M\u00e9todos \u00e1geis",
+                "Ingl\u00eas b\u00e1sico",
+                "jr",
+                "java"
+            ]
+        },
+        {
+            "title": "Pessoa desenvolvedora web j\u00fanior",
+            "weight": 5,
+            "keywords": [
+                "Python",
+                "M\u00e9todos \u00e1geis",
+                "Ingl\u00eas b\u00e1sico",
+                "jr"
+            ]
+        },
+        {
+            "title": "Analista de backoffice gest\u00e3o de ativos j\u00fanior",
+            "weight": 1,
+            "keywords": [
+                "Python",
+                "j\u00fanior",
+                "VBA"
+            ]
+        },
+        {
+            "title": "Analista de opera\u00e7\u00f5es j\u00fanior - exclusiva para profissionais com defici\u00eancia",
+            "weight": 2,
+            "keywords": [
+                "jr",
+                "Ci\u00eancia da Computa\u00e7\u00e3o",
+                "Mysql",
+                "SQL Server",
+                "Power Automate",
+                "Power BI"
+            ]
+        },
+        {
+            "title": "analista de dados j\u00fanior",
+            "weight": 1,
+            "keywords": [
+                "jr",
+                "Estat\u00edstica",
+                "SQL",
+                "NoSQL",
+                "Map Reduce",
+                "Spark",
+                "HDFS",
+                "Python"
+            ]
+        },
+        {
+            "title": "Analista de Dados JR - HS Financeira",
+            "weight": 2,
+            "keywords": [
+                "jr",
+                "Ingl\u00eas b\u00e1sico",
+                "SQL",
+                "Python",
+                "Power BI"
+            ]
+        },
+        {
+            "title": "Analista de dados jr",
+            "weight": 4,
+            "keywords": [
+                "Python",
+                "SQL",
+                "MySQL",
+                "jr",
+                "inglês básico"
+            ]
+        },
+        {
+            "title": "Analista de dados jr",
+            "weight": 4,
+            "keywords": [
+                "Python",
+                "SQL",
+                "MySQL",
+                "jr"
+            ]
+        },
+        {
+            "title": "Analista de precifica\u00e7\u00e3o de ativos jr",
+            "weight": 1,
+            "keywords": [
+                "jr",
+                "Ci\u00eancia da Computa\u00e7\u00e3o",
+                "Python",
+                "Ingl\u00eas avan\u00e7ado",
+                "VBA"
+            ]
+        },
+        {
+            "title": "ANL QUALIDADE TI JR - INTEGRADA DE INVESTMENT SERVICES",
+            "weight": 1,
+            "keywords": [
+                "Python",
+                "Selenium",
+                "jr",
+                "java",
+                "aws",
+                "front end"
+            ]
+        },
+        {
+            "title": "Analista de bi jr",
+            "weight": 1,
+            "keywords": [
+                "jr",
+                "Ci\u00eancia da Computa\u00e7\u00e3o",
+                "Python",
+                "Business Intelligence",
+                "Power BI",
+                "Tableau",
+                "QlikView"
+            ]
+        },
+        {
+            "title": "Desenvolvedor J\u00fanior",
+            "weight": 2,
+            "keywords": [
+                "J\u00fanior",
+                ".NET",
+                "C#",
+                "ASP.NET",
+                "Web Forms",
+                "Windows Forms",
+                "MVC",
+                "Java script",
+                "SQL Server"
+            ]
+        },
+        {
+            "title": "Desenvolvedor J\u00fanior",
+            "weight": 1,
+            "keywords": [
+                "J\u00fanior",
+                ".NET",
+                "C#",
+                "ASP.NET",
+                "Web Forms",
+                "Windows Forms",
+                "MVC",
+                "Java script",
+                "SQL Server",
+                "inglês básico"
+            ]
+        },
+        {
+            "title": "Desenvolvedor J\u00fanior",
+            "weight": 1,
+            "keywords": [
+                "J\u00fanior",
+                ".NET",
+                "C#",
+                "ASP.NET",
+                "Web Forms",
+                "Windows Forms",
+                "MVC",
+                "Java script",
+                "SQL Server"
+            ]
+        },
+        {
+            "title": "Desenvolvedor PHP",
+            "weight": 2,
+            "keywords": [
+                "PHP",
+                "Javascript",
+                "Laravel",
+                "Postgresql",
+                "desenvolvimento de software \u00e1gil",
+                "inglês básico"
+            ]
+        },
+        {
+            "title": "Desenvolvedor PHP",
+            "weight": 2,
+            "keywords": [
+                "PHP",
+                "Javascript",
+                "Laravel",
+                "Postgresql",
+                "desenvolvimento de software \u00e1gil"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Front-end Ou Back-end",
+            "weight": 2,
+            "keywords": [
+                "PHP",
+                "MySQL",
+                "vue.js",
+                "react",
+                "angular"
+            ]
+        },
+        {
+            "title": "Desenvolvedor .NET Pleno",
+            "weight": 2,
+            "keywords": [
+                "pleno",
+                "C#",
+                ".NET",
+                "SQL Server",
+                "MySQL",
+                "Oracle",
+                "Ci\u00eancias da Computa\u00e7\u00e3o",
+                "Ingl\u00eas b\u00e1sico"
+            ]
+        },
+        {
+            "title": "Desenvolvedor power platform",
+            "weight": 2,
+            "keywords": [
+                "low code",
+                "high code",
+                "Power BI",
+                "Power Virtual Agent",
+                "PowerApps",
+                "Power Automate"
+            ]
+        },
+        {
+            "title": "Desenvolvedor",
+            "weight": 2,
+            "keywords": [
+                "Ci\u00eancia da Computa\u00e7\u00e3o",
+                "C#",
+                ".net",
+                "Angular",
+                "mongo"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Front-end Pleno",
+            "weight": 2,
+            "keywords": [
+                "pleno",
+                "Angular",
+                "React",
+                "Javascript",
+                "inglês básico"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Front-end Pleno",
+            "weight": 2,
+            "keywords": [
+                "pleno",
+                "Angular",
+                "React",
+                "Javascript"
+            ]
+        },
+        {
+            "title": "Desenvolvedor",
+            "weight": 1,
+            "keywords": [
+                "metodologias \u00e1geis",
+                "scrum",
+                "Ingl\u00eas intermedi\u00e1rio"
+            ]
+        },
+        {
+            "title": "Tecnologia desenvolvedor",
+            "weight": 1,
+            "keywords": [
+                "Ruby on Rails",
+                "Javascript",
+                "Vue.js",
+                "PostgreSQL"
+            ]
+        },
+        {
+            "title": "Desenvolvedor",
+            "weight": 2,
+            "keywords": [
+                "Nodejs",
+                "nestjs",
+                "Javascript",
+                "jquery",
+                "bootstrap",
+                "TypeScript",
+                "PostgreSQL",
+                "git",
+                "github",
+                "React"
+            ]
+        },
+        {
+            "title": "Desenvolvedor de aplicativos m\u00f3veis",
+            "weight": 1,
+            "keywords": [
+                "AWS",
+                "Git",
+                "java",
+                "JavaScript",
+                "Node.js",
+                "Node.js"
+            ]
+        },
+        {
+            "title": "Desenvolvedor(a) Java (Remoto)",
+            "weight": 1,
+            "keywords": [
+                "Ci\u00eancia da Computa\u00e7\u00e3o",
+                "Java",
+                "GIT",
+                "Ferramentas de controle de vers\u00e3o",
+                "SQL Server",
+                "ORACLE",
+                "Cassandra"
+            ]
+        },
+        {
+            "title": "Desenvolvedor NodeJS",
+            "weight": 1,
+            "keywords": [
+                "Node.js",
+                "Typescript",
+                "RESTful",
+                "mongodb",
+                "MySQL"
+            ]
+        },
+        {
+            "title": "Analista Desenvolvedor",
+            "weight": 1,
+            "keywords": [
+                "Ingl\u00eas avan\u00e7ado",
+                "ci\u00eancia da computa\u00e7\u00e3o",
+                "jr",
+                "Java"
+            ]
+        },
+        {
+            "title": "Desenvolvedor(a) Pleno (Flu\u00eancia em Ingl\u00eas)",
+            "weight": 1,
+            "keywords": [
+                "aws",
+                "C#",
+                ".net",
+                "python",
+                "sql server",
+                "pleno",
+                "Ingl\u00eas fluente"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Java Back-end",
+            "weight": 1,
+            "keywords": [
+                "Back-end",
+                "java",
+                "ingl\u00eas avan\u00e7ado",
+                "Ci\u00eancia da Computa\u00e7\u00e3o"
+            ]
+        },
+        {
+            "title": "Analista Desenvolvedor",
+            "weight": 1,
+            "keywords": [
+                "Ingl\u00eas fluente",
+                "Ci\u00eancia da Computa\u00e7\u00e3o",
+                "Oracle",
+                "SQL Server",
+                "PostgreSQL",
+                "MySQL",
+                "Ingl\u00eas Avan\u00e7ado",
+                "Javascript",
+                "Python"
+            ]
+        },
+        {
+            "title": "analista de dados desenvolvedor",
+            "weight": 2,
+            "keywords": [
+                "ci\u00eancia da computa\u00e7\u00e3o",
+                "powerbi",
+                "sql",
+                "ingl\u00eas avan\u00e7ado",
+                "python",
+                "databricks"
+            ]
+        },
+        {
+            "title": "DESENVOLVEDOR(A) JAVA S\u00caNIOR, FUTURO(A) ENGENHEIRO(A) DE DADOS",
+            "weight": 1,
+            "keywords": [
+                "NoSQL",
+                "Ci\u00eancia da Computa\u00e7\u00e3o",
+                "estruturas de dados",
+                "Ingl\u00eas avan\u00e7ado",
+                "Java",
+                "Hadoop",
+                "Spark"
+            ]
+        },
+        {
+            "title": "Desenvolvedor(a) Front End S\u00eanior",
+            "weight": 1,
+            "keywords": [
+                "React",
+                "JavaScript",
+                "Ingl\u00eas avan\u00e7ado",
+                "angular",
+                "git",
+                "docker",
+                "ci\u00eancia da computa\u00e7\u00e3o"
+            ]
+        },
+        {
+            "title": "ENGENHEIRO(A) DE BIG DATA",
+            "weight": 1,
+            "keywords": [
+                "Ci\u00eancia da Computa\u00e7\u00e3o",
+                "NoSQL",
+                "Java",
+                "Ingl\u00eas Avan\u00e7ado",
+                "Hadoop",
+                "spark",
+                "Ingl\u00eas Avan\u00e7ado"
+            ]
+        },
+        {
+            "title": "Desenvolvedor C# com Ingl\u00eas Avan\u00e7ado",
+            "weight": 1,
+            "keywords": [
+                "Ingl\u00eas avan\u00e7ado",
+                "C#",
+                "C++",
+                ".NET",
+                ".NET Core"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Full Stack Pleno",
+            "weight": 2,
+            "keywords": [
+                "pleno",
+                "ReactJS",
+                ".NET",
+                "ASP .NET",
+                "SQL Server"
+            ]
+        },
+        {
+            "title": "Senior Machine Learning Engineer",
+            "weight": 1,
+            "keywords": [
+                "Senior",
+                "computer science",
+                "MLOps",
+                "Python",
+                "Java",
+                "tableau",
+                "DevOps",
+                "powerBI",
+                "Airflow",
+                "CI/CD"
+            ]
+        },
+        {
+            "title": "Arquiteto de dados",
+            "weight": 1,
+            "keywords": [
+                "Ingl\u00eas intermedi\u00e1rio",
+                "AWS",
+                "GCP",
+                "Azure",
+                "Databricks",
+                "Palantir",
+                "Business Intelligence",
+                "Python"
+            ]
+        },
+        {
+            "title": "Software Developer",
+            "weight": 1,
+            "keywords": [
+                "Golang",
+                "Python",
+                "RabbitMQ",
+                "PostgreSQL",
+                "Docker",
+                "Grafana"
+            ]
+        },
+        {
+            "title": "Software Developer",
+            "weight": 2,
+            "keywords": [
+                "sql",
+                "mysql",
+                "postgresql",
+                "DataStudio",
+                "Power Bi",
+                "Tableau"
+            ]
+        },
+        {
+            "title": "Analista de Antifraude J\u00fanior",
+            "weight": 1,
+            "keywords": [
+                "j\u00fanior",
+                "java",
+                "sql"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Java J\u00fanior",
+            "weight": 1,
+            "keywords": [
+                "Java",
+                "SQL",
+                "Ci\u00eancia da Computa\u00e7\u00e3o",
+                "jr"
+            ]
+        },
+        {
+            "title": "ENGENHARIA DE SOFTWARE JR (24635)",
+            "weight": 2,
+            "keywords": [
+                "jr",
+                "c/c++",
+                "Python",
+                "Ingl\u00eas Avan\u00e7ado"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Python Pleno",
+            "weight": 2,
+            "keywords": [
+                "pleno",
+                "python",
+                "SQL",
+                "inglês intermediário"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Python Pleno",
+            "weight": 1,
+            "keywords": [
+                "pleno",
+                "python",
+                "SQL",
+                "java"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Python Pleno",
+            "weight": 3,
+            "keywords": [
+                "pleno",
+                "python",
+                "SQL"
+            ]
+        },
+        {
+            "title": "Desenvolvedor .Net com ingl\u00eas (Porto Alegre)",
+            "weight": 1,
+            "keywords": [
+                "plsql",
+                ".net",
+                "reactjs",
+                "scrum",
+                "ingl\u00eas intermedi\u00e1rio"
+            ]
+        },
+        {
+            "title": "DESENVOLVEDOR BACKEND - ATS Consulting",
+            "weight": 1,
+            "keywords": [
+                "BACKEND",
+                "laravel",
+                "PHP",
+                "Ci\u00eancia da Computa\u00e7\u00e3o",
+                "MySQL",
+                "NoSQL",
+                "GIT",
+                "Front-End",
+                "SCRUM",
+                "Full Stack",
+                "Ingl\u00eas Intermedi\u00e1rio"
+            ]
+        },
+        {
+            "title": "DESENVOLVEDOR DE SOFTWARE FULL STACK - J\u00fanior (H\u00edbrido/CLT)",
+            "weight": 1,
+            "keywords": [
+                "J\u00fanior",
+                "FULL STACK",
+                "ingl\u00eas intermedi\u00e1rio",
+                "React",
+                "Angular",
+                "Node.js",
+                "PHP",
+                "Ci\u00eancia da Computa\u00e7\u00e3o",
+                "front-end",
+                "back-end",
+                "Javascript"
+            ]
+        },
+        {
+            "title": "Desenvolvedor C#",
+            "weight": 1,
+            "keywords": [
+                ".NET Core",
+                "C#",
+                "SQL Server",
+                "Angular",
+                "Ingl\u00eas intermedi\u00e1rio"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Software - FrontEnd",
+            "weight": 1,
+            "keywords": [
+                "ingl\u00eas intermedi\u00e1rio",
+                "computa\u00e7\u00e3o",
+                "FrontEnd",
+                "C++",
+                "Java",
+                "NodeJS",
+                "Javascript",
+                "PHP",
+                "Python",
+                "MariaDB",
+                "Joomla",
+                "Bootstrap"
+            ]
+        },
+        {
+            "title": "Analista I (Desenvolvedor Web)",
+            "weight": 1,
+            "keywords": [
+                "Ingl\u00eas B\u00e1sico",
+                "Metodologia \u00e1gil",
+                "Scrum",
+                "Kanban",
+                "C#",
+                "Javascript",
+                "Asp.Net",
+                "Aurelia",
+                "Angular",
+                "VueJS",
+                "React",
+                "typescript",
+                "Docker",
+                "MVC",
+                "Azure"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Python - Pleno",
+            "weight": 2,
+            "keywords": [
+                "pleno",
+                "Ingl\u00eas b\u00e1sico",
+                "python",
+                "angular",
+                "git",
+                "inglês intermediário"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Python - Pleno",
+            "weight": 3,
+            "keywords": [
+                "pleno",
+                "Ingl\u00eas b\u00e1sico",
+                "python",
+                "angular",
+                "git",
+                "iniciação ciéntifica"
+            ]
+        },
+        {
+            "title": "Desenvolvedor Python - Pleno",
+            "weight": 3,
+            "keywords": [
+                "pleno",
+                "Ingl\u00eas b\u00e1sico",
+                "python",
+                "angular",
+                "git"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+por keyword: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+
+presencial/remota:
+	keyword+remoto: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(distance:List(25),workplaceType:List(2)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+	keyword+presencial: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(distance:List(25),workplaceType:List(1)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+	keyword+hibrido: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(distance:List(25),workplaceType:List(3)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+	keyword+remoto+presencial: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(distance:List(25),workplaceType:List(2,1)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+
+nível de experiência
+	keyword+estágio: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(distance:List(25),experience:List(1)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+	keyword+assistente: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(distance:List(25),experience:List(2)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+	keyword+junior: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(distance:List(25),experience:List(3)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+	keyword+pleno-senior: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(distance:List(25),experience:List(4)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+	keyword+diretor: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(distance:List(25),experience:List(5)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+	keyword+executivo: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(distance:List(25),experience:List(6)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+
+data da publicação
+	aparentemente: timePostedRange:List(r<tempo em segundos>)
+
+	keyword+a qualquer momento: endpoint de só keyword
+	keyword+ultimo mes: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(sortBy:List(R),distance:List(25),timePostedRange:List(r2592000)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+	keyword+ultima semana: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(sortBy:List(R),distance:List(25),timePostedRange:List(r604800)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+	keyword+ultimas 24 horas: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(sortBy:List(R),distance:List(25),timePostedRange:List(r86400)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+
+empresa
+	keyword+empresa: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(sortBy:List(R),distance:List(25),company:List(18846814)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+
+classificar por:
+	keyword+mais relevantes: endpoint de só keyword
+	keyword+mais recentes: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(sortBy:List(DD),distance:List(25)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+
+localidade:
+	rio de janeiro: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(sortBy:List(R),populatedPlace:List(106701406)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+	duque de caxias: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(sortBy:List(R),distance:List(25),populatedPlace:List(100177287)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+	nova iguaçu: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(sortBy:List(R),populatedPlace:List(101236820)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+	são joão de meriti: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(sortBy:List(R),populatedPlace:List(102872198)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+	niteroi: /voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42&count=7&q=jobSearch&query=(origin:JOB_SEARCH_PAGE_OTHER_ENTRY,keywords:python,locationUnion:(geoId:103658898),selectedFilters:(sortBy:List(R),populatedPlace:List(105272189)),spellCorrectionEnabled:true)&servedEventEnabled=false&start=0
+
+setor:
+
+função:
+
+cargo:
+
+
+
+

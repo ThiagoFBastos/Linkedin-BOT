@@ -1,0 +1,12 @@
+{
+    "postgresql" : ["postgresql", "postgres"],
+    "mysql" : ["mysql"],
+    "mariadb" : ["mariadb"],
+    "mongodb" : ["mongodb", "mongo"],
+    "Microsoft Access" : ["Microsoft Access", "Ms Access", "msaccess"],
+    "Oracle" : ["Oracle"],
+    "SQLite" : ["SQLite"],
+    "sas" : ["sas"],
+    "SQL Server" : ["sql server"]
+}
+

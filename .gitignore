@@ -1,0 +1,18 @@
+__pycache__/*
+tmp/__pycache__/*
+tmp/bad_keywords.csv
+tmp/endpoins
+tmp/entrada
+tmp/LIBS.json
+tmp/LINGUAGENS.json
+tmp/pag.html
+tmp/params.json
+tmp/saida
+tmp/SGDBS.json
+tmp/tools.json
+tmp/TOOLS.txt
+dbdata/*
+fake_params.json
+linkedin (cópia).py
+entrada
+code.py
