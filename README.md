@@ -17,7 +17,6 @@ sua nota, de 1 (muito ruim) a 5 (muito bom), baseada somente nessas keywords.
 1. abra o terminal e insira: docker compose up
 2. edite o arquivo params.json
     ```
-    {
         {
             "username" : "thiago.com",
             "password" : "1234",
@@ -38,7 +37,6 @@ sua nota, de 1 (muito ruim) a 5 (muito bom), baseada somente nessas keywords.
             "cutoff" : 4,
             "search" : "simple"
         }
-    }
     ```
 
     Sendo:
