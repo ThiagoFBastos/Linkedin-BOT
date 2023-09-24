@@ -127,10 +127,20 @@ class ml_filter_jobs(filter_jobs):
             dict com algumas informações do post
     """
 
-    def filter(self, data, job):
-        title = data['title']
+    def filter(self, data, job, **kwargs):
+        title = data.get('title', '')
         text = data.get('description', {}).get('text', '')
         score = 0.0
+
+        if 'discardCompanies' in kwargs:
+            company_urn_id = int(data.get('companyDetails', {}) \
+                             .get('com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany', {}) \
+                             .get('companyResolutionResult', {}) \
+                             .get('entityUrn', '-1').split(':')[-1])
+
+            if company_urn_id in kwargs['discardCompanies']:
+                print(f"Eu recuso {title} por causa da empresa")
+                return False
 
         text_skills = self._match.get_patterns(title + '\n' + text)
 

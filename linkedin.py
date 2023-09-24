@@ -34,7 +34,7 @@ class Linkedin(BaseLinkedin):
     """
 
     def _search_page_jobs(self, keywords, start = 0, **kwargs):
-        for i in range(3):
+        for i in range(5):
             try:
                 # definindo os parâmetros da query
                 LINKEDIN_BASE_URL = self.client.LINKEDIN_BASE_URL
@@ -127,6 +127,9 @@ class Linkedin(BaseLinkedin):
 
         count = kwargs.get('count', 7)
 
+        discardCompanies = kwargs.get('discardCompanies')
+        kwargs.pop('discardCompanies')
+
         for i, key in enumerate(keywords):
             start = 0
             collected = 0
@@ -150,7 +153,7 @@ class Linkedin(BaseLinkedin):
                             if urn_id not in jobs:
                                 data = self.get_job(urn_id) # algumas vezes lança exceção
 
-                                if self._filter_jobs.filter(data, job):
+                                if self._filter_jobs.filter(data, job, discardCompanies = discardCompanies):
                                     jobs[urn_id] = job
                                     collected += 1
 

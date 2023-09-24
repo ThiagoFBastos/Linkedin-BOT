@@ -7,7 +7,7 @@ class simple_filter_jobs(filter_jobs):
     """
 
     def __init__(self, cutoff):
-        import pandas as pd
+        from pandas import read_csv
         from DB import DB
         from matches import  Match
 
@@ -22,7 +22,7 @@ class simple_filter_jobs(filter_jobs):
             which_key = dict(zip(self._variants_name, self._variants_key))
 
             # pegando as boas keywords
-            good_keywords_df = pd.read_csv('skills.csv') # keyword, weight
+            good_keywords_df = read_csv('skills.csv') # keyword, weight
             self._accepted_keywords = dict([(which_key[self._normalize_text(row.keyword)], row.weight) for row in good_keywords_df.itertuples()])
 
     """
@@ -38,10 +38,21 @@ class simple_filter_jobs(filter_jobs):
             dict com algumas informações do post
     """
 
-    def filter(self, data, job):
-        title = data['title']
+    def filter(self, data, job, **kwargs):
+        title = data.get('title', '')
         text = data.get('description', {}).get('text', '')
         score = 0.0
+
+        if 'discardCompanies' in kwargs:
+
+            company_urn_id = int(data.get('companyDetails', {}) \
+                             .get('com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany', {}) \
+                             .get('companyResolutionResult', {}) \
+                             .get('entityUrn', '-1').split(':')[-1])
+
+            if company_urn_id in kwargs['discardCompanies']:
+                print(f"Eu recuso {title} por causa da empresa")
+                return False
 
         text_skills = self._match.get_patterns(title + '\n' + text)
         seen_keywords = set()

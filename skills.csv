@@ -1,14 +1,14 @@
 keyword,weight
-python,5
-c++,5
-C language,5
+python,50
+c++,50
+C language,50
 javascript,4
-sql,5
+sql,25
 html,3
 css,3
-selenium,3
+selenium,50
 ciência da computação,3
-rpa,0.000000001
+rpa,50
 jr,0.000000001
 fullstack,0.000000001
 front-end,0.000000001
@@ -32,9 +32,7 @@ kanban,0.000000001
 Lean,0.000000001
 Extreme Programming,0.000000001
 inglês técnico,0.000000001
-crawler,0.000000001
-scraping,0.000000001
-Cython,0.000000001
+Cython,50
 postgresql,0.000000001
 PL/SQL,0.000000001
 mysql,0.000000001
@@ -43,15 +41,20 @@ Microsoft Access,0.000000001
 Oracle,0.000000001
 SQLite,0.000000001
 SQL Server,0.000000001
-matplotlib,0.000000001
-SQLAlchemy,0.000000001
-BeautifulSoup,0.000000001
-numpy,0.000000001
-pandas,0.000000001
-crawler,0.000000001
-scraping,0.000000001
+matplotlib,50
+SQLAlchemy,50
+BeautifulSoup,50
+numpy,50
+pandas,50
+crawler,50
+scraping,50
 júnior,0.000000001
 senior,0.000000001
 pleno,0.000000001
 databricks,0.000000001
 MVC,0.000000001
+cloud computing,0.000000001
+full stack,0.000000001
+BootStrap,0.000000001
+ajax,0.000000001
+jquery,0.000000001

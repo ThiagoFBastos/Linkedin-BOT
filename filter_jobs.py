@@ -49,8 +49,11 @@ class filter_jobs:
                              .get('companyResolutionResult', {}) \
                              .get('url', 'UNKNOWN')
 
-        job['workplaceType'] = '/'.join([workplaceType.get('localizedName', 'UNKNOWN') for workplaceType in data.get('workplaceTypesResolutionResults', {}).values()])
+        job['workplaceType'] = '/'.join([workplaceType.get('localizedName') for workplaceType in data.get('workplaceTypesResolutionResults', {}).values()])
 
+        if len(job['workplaceType']) == 0:
+            job['workplaceType'] = 'UNKNOWN'
+        
         print(f"Eu peguei esse: {job['jobtitle']}")
 
         return True

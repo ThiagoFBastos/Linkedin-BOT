@@ -49,6 +49,7 @@ sua nota, de 1 (muito ruim) a 5 (muito bom), baseada somente nessas keywords.
 - locationUnion: id da região para encontrar a vaga (país, cidade, estado, etc). Para encontrar o valor: pesquise a vaga usando o local e copie o valor do parâmetro geoId na caixa de url.
 - populatedPlace: lista com os id's das sub-regiões. Para encontrar uma sub-região: pesquise uma vaga com a região escolhida, clique em todos os filtros, selecione uma das sub-regiões em Localidade e copie o valor do parâmetro f_PP na caixa de url.
 - experience: 1 (estágio), 2 (assistente), 3 (júnior), 4 (pleno/senior), 5 (diretor) e 6 (executivo)
+- discardCompanies: lista com os id's das empresas que devem ser descartadas. Para encontrar de uma empresa espacífica: vá na página da empresa, pesquise uma vaga e copie o valor do atributo f_C na caixa de url.
 - companies: lista com os id's da empresas alvos. Para encontrar de uma empresa espacífica: vá na página da empresa, pesquise uma vaga e copie o valor do atributo f_C na caixa de url.
 - workplaceType: 1 (Presencial), 2 (Remoto), 3 (Híbrido)
 - count: não precisa modificar (é o limite de posts por página na requisição)

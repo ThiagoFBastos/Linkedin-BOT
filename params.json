@@ -9,6 +9,7 @@
     "experience" : [2, 3],
     "limit" : [10, 10, 10],
     "companies" : [],
+    "discardCompanies" : [18846814, 234280],
     "workplaceType" : [1, 2, 3],
     "count" : 7,
     "distance" : 25,
