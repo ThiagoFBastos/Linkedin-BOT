@@ -18,23 +18,26 @@ sua nota, de 1 (muito ruim) a 5 (muito bom), baseada somente nessas keywords.
 2. edite o arquivo params.json
     ```
     {
-        "username" : "thiago.com",
-        "password" : "1234",
-        "keywords" : ["c++", "python", "javascript"],
-        "function" : [],
-        "sortBy" : "R",
-        "locationUnion" : 103658898,
-        "populatedPlace" : [106701406, 100177287, 101236820, 102872198, 105272189],
-        "experience" : [2, 3],
-        "limit" : [10, 10, 10],
-        "companies" : [],
-        "workplaceType" : [1, 2, 3],
-        "count" : 7,
-        "distance" : 25,
-        "listed_at" : 31536000,
-        "output" : "jobs",
-        "cutoff" : 4,
-        "search" : "simple"
+        {
+            "username" : "thiago.com",
+            "password" : "1234",
+            "keywords" : ["c++", "python", "javascript"],
+            "function" : [],
+            "sortBy" : "R",
+            "locationUnion" : 103658898,
+            "populatedPlace" : [106701406, 100177287, 101236820, 102872198, 105272189],
+            "experience" : [2, 3],
+            "limit" : [10, 10, 10],
+            "companies" : [],
+            "discardCompanies" : [18846814, 234280],
+            "workplaceType" : [1, 2, 3],
+            "count" : 7,
+            "distance" : 25,
+            "listed_at" : 31536000,
+            "output" : "jobs",
+            "cutoff" : 4,
+            "search" : "simple"
+        }
     }
     ```
 
