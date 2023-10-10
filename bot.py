@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-PARAMS = 'params.json'
+PARAMS = 'fake_params.json'
 
 def main():
     from linkedin import Linkedin

@@ -89,32 +89,7 @@ class ml_filter_jobs(filter_jobs):
             train_X = list(map(lambda row: row[0], dataset))
             train_y = list(map(lambda row: row[1], dataset))
 
-            #X_train, X_test, y_train, y_test = train_test_split(train_X, train_y, test_size = 0.3, random_state = 1)
-
             self._reg = make_pipeline(StandardScaler(), MLPClassifier(solver = 'lbfgs', random_state = 1, max_iter = 1000, hidden_layer_sizes = (100, ) * 4)).fit(train_X, train_y)
-
-            #print('R2 = ', self._reg.score(X_test, y_test))
-
-            """
-            self._reg = SGDRegressor(tol = 10 ** -5, max_iter = 1000, random_state = 1).fit(X_train, y_train)
-            
-            y_pred = self._reg.predict(X_test)
-
-            print('R2 = ', r2_score(y_test, y_pred))
-            """
-            
-            """
-            self._reg = LinearRegression().fit(X_train, y_train)
-
-            y_pred = self._reg.predict(X_test)
-
-            print('R2 = ', r2_score(y_test, y_pred))
-            """
-
-            #exit(0)
-
-            #self._reg = MLPRegressor(random_state = 1, max_iter = 500, hidden_layer_sizes = (100, ) * 4).fit(train_X, train_y)
-
     """
         descrição
             retorna falso não seja aceito pelo classificador. Caso contrário, retorna verdadeiro completando

@@ -30,6 +30,7 @@ class filter_jobs:
     """
 
     def filter(self, data, job):
+        
         job['company'] = data.get('companyDetails', {}) \
                                  .get('com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany', {}) \
                                  .get('companyResolutionResult', {}) \
@@ -53,6 +54,10 @@ class filter_jobs:
 
         if len(job['workplaceType']) == 0:
             job['workplaceType'] = 'UNKNOWN'
+
+        job['applyMethod'] = next(iter(data.get('applyMethod') \
+                            .values())) \
+                            .get('companyApplyUrl', 'UNKNOWN')
         
         print(f"Eu peguei esse: {job['jobtitle']}")
 

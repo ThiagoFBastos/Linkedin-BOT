@@ -30,7 +30,6 @@ sua nota, de 1 (muito ruim) a 5 (muito bom), baseada somente nessas keywords.
             "companies" : [],
             "discardCompanies" : [18846814, 234280],
             "workplaceType" : [1, 2, 3],
-            "count" : 7,
             "distance" : 25,
             "listed_at" : 31536000,
             "output" : "jobs",
@@ -53,7 +52,6 @@ sua nota, de 1 (muito ruim) a 5 (muito bom), baseada somente nessas keywords.
 - discardCompanies: lista com os id's das empresas que devem ser descartadas. Para encontrar de uma empresa espacífica: vá na página da empresa, pesquise uma vaga e copie o valor do atributo f_C na caixa de url.
 - companies: lista com os id's da empresas alvos. Para encontrar de uma empresa espacífica: vá na página da empresa, pesquise uma vaga e copie o valor do atributo f_C na caixa de url.
 - workplaceType: 1 (Presencial), 2 (Remoto), 3 (Híbrido)
-- count: não precisa modificar (é o limite de posts por página na requisição)
 - distance: raio da busca (default é 25)
 - listed_at: número de segundos desde a publicação
 - output: arquivo csv com os dados dos posts
@@ -74,6 +72,7 @@ sua nota, de 1 (muito ruim) a 5 (muito bom), baseada somente nessas keywords.
 - listedAt: tempo em segundos desde a publicação
 - company_url: url da página da empresa no linkedin
 - workPlaceType: lista com os modos de trabalho
+- applyMethod: url da página de aplicação da empresa
 
 ## Editar o banco de dados
 Para construir o arquivo linkedin.sql: vá em tmp, abra o terminal e digite python3 sql_builder.py

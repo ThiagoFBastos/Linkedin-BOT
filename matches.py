@@ -5,7 +5,7 @@ class Match:
     def __init__(self, words):
         self._prefix = {}
         self._MOD = 2 ** 61 - 1
-        self._P = randrange(2, self._MOD - 2)
+        self._P = randrange(128, self._MOD - 2)
 
         for k, w in enumerate(words):
             h = 0

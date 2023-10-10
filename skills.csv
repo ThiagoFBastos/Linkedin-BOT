@@ -2,13 +2,13 @@ keyword,weight
 python,50
 c++,50
 C language,50
-javascript,4
+javascript,25
 sql,25
-html,3
-css,3
-selenium,50
-ciência da computação,3
-rpa,50
+html,10
+css,10
+selenium,25
+ciência da computação,25
+rpa,25
 jr,0.000000001
 fullstack,0.000000001
 front-end,0.000000001
@@ -58,3 +58,14 @@ full stack,0.000000001
 BootStrap,0.000000001
 ajax,0.000000001
 jquery,0.000000001
+docker,0.000000001
+django,0.000000001
+scikit learn,0.000000001
+gitlab,0.000000001
+low code,0.000000001
+high code,0.000000001
+express,0.000000001
+aws,0.000000001
+botcity,50
+Business Intelligence,0.000000001
+power bi,0.000000001
