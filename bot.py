@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
-PARAMS = 'params.json'
+import sys
+
+PARAMS = 'params.json' if sys.argv[-1] != 'LOCAL' else 'fake_params.json'
 
 def main():
     from linkedin import Linkedin

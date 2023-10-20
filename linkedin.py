@@ -36,76 +36,75 @@ class Linkedin(BaseLinkedin):
     """
 
     def _search_page_jobs(self, keywords, start = 0, **kwargs):
-        try:
-            # definindo os parâmetros da query
-            LINKEDIN_BASE_URL = self.client.LINKEDIN_BASE_URL
+        for tri in range(3):
+            try:
+                # definindo os parâmetros da query
+                LINKEDIN_BASE_URL = self.client.LINKEDIN_BASE_URL
 
-            params = {
-                'decorationId' : 'com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42',
-                'count' : self.MAX_PAGE_COUNT,
-                'q' : 'jobSearch',
-                'spellCorrectionEnabled' : 'true',
-                'servedEventEnabled' : 'false',
-                'start' : start,
-                'locationUnion' : f'(geoid:{kwargs["locationUnion"]})',
-                'query' : {
-                            'keywords' : keywords,
-                            'origin' : 'JOB_SEARCH_PAGE_JOB_FILTER',
-                            'selectedFilters' : {
-                                'spellCorrectionEnabled' : 'true',
-                                'function' : f"List({','.join(kwargs['function'])})",
-                                'experience' : f"List({','.join(map(lambda n: str(n), kwargs['experience']))})",
-                                'timePostedRange' : f"List(r{kwargs['listed_at']})",
-                                'company' : f"List({','.join(map(lambda id: str(id), kwargs['companies']))})",
-                                'workplaceType' : f"List({','.join(map(lambda id: str(id), kwargs['workplaceType']))})",
-                                'populatedPlace' : f"List({','.join(map(lambda id: str(id), kwargs['populatedPlace']))})",
-                                'sortBy' : f"List({kwargs['sortBy']})",
-                                'distance' : f"List({kwargs['distance']})"
-                            }
-                          }
-            }
+                params = {
+                    'decorationId' : 'com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollectionLite-42',
+                    'count' : self.MAX_PAGE_COUNT,
+                    'q' : 'jobSearch',
+                    'spellCorrectionEnabled' : 'true',
+                    'servedEventEnabled' : 'false',
+                    'start' : start,
+                    'locationUnion' : f'(geoid:{kwargs["locationUnion"]})',
+                    'query' : {
+                                'keywords' : keywords,
+                                'origin' : 'JOB_SEARCH_PAGE_JOB_FILTER',
+                                'selectedFilters' : {
+                                    'spellCorrectionEnabled' : 'true',
+                                    'function' : f"List({','.join(kwargs['function'])})",
+                                    'experience' : f"List({','.join(map(lambda n: str(n), kwargs['experience']))})",
+                                    'timePostedRange' : f"List(r{kwargs['listed_at']})",
+                                    'company' : f"List({','.join(map(lambda id: str(id), kwargs['companies']))})",
+                                    'workplaceType' : f"List({','.join(map(lambda id: str(id), kwargs['workplaceType']))})",
+                                    'populatedPlace' : f"List({','.join(map(lambda id: str(id), kwargs['populatedPlace']))})",
+                                    'sortBy' : f"List({kwargs['sortBy']})",
+                                    'distance' : f"List({kwargs['distance']})"
+                                }
+                              }
+                }
 
-            selectedFilters = params['query']['selectedFilters']
+                selectedFilters = params['query']['selectedFilters']
 
-            params['query']['selectedFilters'] = f"({','.join(map(lambda p: f'{p[0]}:{p[1]}', selectedFilters.items()))})"
-         
-            params['query'] = f"({','.join(map(lambda p: f'{p[0]}:{p[1]}', params['query'].items()))})"
+                params['query']['selectedFilters'] = f"({','.join(map(lambda p: f'{p[0]}:{p[1]}', selectedFilters.items()))})"
+             
+                params['query'] = f"({','.join(map(lambda p: f'{p[0]}:{p[1]}', params['query'].items()))})"
 
-            args = '&'.join(map(lambda p: f'{p[0]}={p[1]}', params.items()))
+                args = '&'.join(map(lambda p: f'{p[0]}={p[1]}', params.items()))
 
-            url = f'{LINKEDIN_BASE_URL}/voyager/api/voyagerJobsDashJobCards?{args}'
+                url = f'{LINKEDIN_BASE_URL}/voyager/api/voyagerJobsDashJobCards?{args}'
 
-            res = self.client.session.get(url)
+                res = self.client.session.get(url, timeout = 5)
 
-            if res.status_code != 200:
-                return None
+                if res.status_code != 200:
+                    return None
 
-            data = res.json()
+                data = res.json()
 
-            elements = data['elements']
+                elements = data['elements']
 
-            jobs = []
+                jobs = []
 
-            # pegando os campos necessários
+                # pegando os campos necessários
 
-            for element in elements:
-                jobCardUnion = element.get('jobCardUnion')
+                for element in elements:
+                    jobPostingCard = element.get('jobCardUnion', {}).get('jobPostingCard')
+    
+                    if not jobPostingCard: continue
 
-                if not jobCardUnion or 'jobPostingCard' not in jobCardUnion: continue
+                    urn_id = jobPostingCard.get('jobPostingUrn', '').split(':')[-1]
 
-                jobPostingCard = jobCardUnion['jobPostingCard']
+                    jobs.append({
+                        'urn_id': urn_id,
+                        'jobtitle': jobPostingCard.get('jobPostingTitle'),
+                        'url' : f'https://www.linkedin.com/jobs/view/{urn_id}'
+                    })
 
-                urn_id = jobPostingCard.get('jobPostingUrn', '').split(':')[-1]
-
-                jobs.append({
-                    'urn_id': urn_id,
-                    'jobtitle': jobPostingCard.get('jobPostingTitle'),
-                    'url' : f'https://www.linkedin.com/jobs/view/{urn_id}'
-                })
-
-            return jobs
-        except Exception as ex:
-            print(ex)
+                return jobs
+            except Exception as ex:
+                print(ex)
 
     """
         descrição
