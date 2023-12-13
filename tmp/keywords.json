@@ -1,4 +1,5 @@
 {
+"excel": ["excel"],
 "Business Intelligence" : ["Business Intelligence", "inteligência de negócio", "ferramentas de bi"],
 "json" : ["json"],
 "restjs" : ["rest.js", "restjs", "rest js"],
