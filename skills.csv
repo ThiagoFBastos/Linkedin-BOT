@@ -1,47 +1,47 @@
 keyword,weight
-excel,1000
+excel,0
 python,50
-c++,50
-C language,50
-javascript,25
+c++,15
+C language,15
+javascript,10
 sql,25
-html,10
-css,10
-selenium,25
-ciência da computação,25
+html,5
+css,5
+selenium,50
+ciência da computação,0
 rpa,25
-jr,0.000000001
-fullstack,0.000000001
-front-end,0.000000001
-back-end,0.000000001
-oracle,0.000000001
-pleno,0.000000001
-senior,0.000000001
-inteligencia artificial,0.000000001
-machine learning,0.000000001
-git,0.000000001
-github,0.000000001
-shell script,0.000000001
-inglês intermediario,0.000000001
-inglês básico,0.000000001
-estruturas de dados,0.000000001
-estatística,0.000000001
-iniciação científica,0.000000001
-metodologias ágeis,0.000000001
-scrum,0.000000001
-kanban,0.000000001
-Lean,0.000000001
-Extreme Programming,0.000000001
-inglês técnico,0.000000001
+jr,0
+fullstack,0
+front-end,0
+back-end,0
+oracle,0
+pleno,0
+senior,0
+inteligencia artificial,0
+machine learning,0
+git,0
+github,0
+shell script,0
+inglês intermediario,0
+inglês básico,50
+estruturas de dados,0
+estatística,0
+iniciação científica,0
+metodologias ágeis,0
+scrum,0
+kanban,0
+Lean,0
+Extreme Programming,0
+inglês técnico,50
 Cython,50
-postgresql,0.000000001
-PL/SQL,0.000000001
-mysql,0.000000001
-mariadb,0.000000001
-Microsoft Access,0.000000001
-Oracle,0.000000001
-SQLite,0.000000001
-SQL Server,0.000000001
+postgresql,0
+PL/SQL,0
+mysql,0
+mariadb,0
+Microsoft Access,0
+Oracle,0
+SQLite,0
+SQL Server,0
 matplotlib,50
 SQLAlchemy,50
 BeautifulSoup,50
@@ -49,31 +49,31 @@ numpy,50
 pandas,50
 crawler,50
 scraping,50
-júnior,0.000000001
-senior,0.000000001
-pleno,0.000000001
-databricks,0.000000001
-MVC,0.000000001
-cloud computing,0.000000001
-full stack,0.000000001
-BootStrap,0.000000001
-ajax,0.000000001
-jquery,0.000000001
-docker,0.000000001
-django,0.000000001
-scikit learn,0.000000001
-gitlab,0.000000001
-low code,0.000000001
-high code,0.000000001
-express,0.000000001
-aws,0.000000001
+júnior,0
+senior,0
+pleno,0
+databricks,0
+MVC,0
+cloud computing,0
+full stack,0
+BootStrap,0
+ajax,0
+jquery,0
+docker,0
+django,50
+scikit learn,50
+gitlab,0
+low code,0
+high code,0
+express,0
+aws,0
 botcity,50
-Business Intelligence,0.000000001
-power bi,0.000000001
-QT,0.000000001
-GTK,0.000000001
-GTKmm,0.000000001
-pthread,0.000000001
-openmp,0.000000001
-openmpi,0.000000001
-ci/cd,0.000000001
+Business Intelligence,0
+power bi,0
+QT,0
+GTK,0
+GTKmm,0
+pthread,0
+openmp,0
+openmpi,0
+ci/cd,0
