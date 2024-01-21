@@ -2,7 +2,7 @@
 
 Procura ofertas de trabalho no linkedin por uma entrada (keywords) e tenta localizar algumas keywords (não inclui sobreposição, então se tem uma keyword ocorrendo dentro de outra só a maior é contabilizada), vindas de um banco de dados, no texto.
 Há duas variações: uma que usa uma tabela com keywords que serão as únicas aceitas (se um post conter outra ele é descartado) e outra que usa um dataset de posts com suas keywords e a
-sua nota, de 1 (muito ruim) a 5 (muito bom), baseada somente nessas keywords.
+sua nota, de 1 (muito ruim) a 5 (muito bom), baseada somente nessas keywords, que serão usadas em um classificador.
 
 ## Requisitos
 
