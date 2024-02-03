@@ -56,7 +56,7 @@ sua nota, de 1 (muito ruim) a 5 (muito bom), baseada somente nessas keywords, qu
 - listed_at: número de segundos desde a publicação
 - output: arquivo csv com os dados dos jobs posts encontrados e ficará na pasta /output
 - search: simple se usa a tabela skills.csv que está na pasta /input que contém algumas keywords cadastradas em data/keywords.json juntamente com o seu peso ou se usa o dataset de exemplos cadastradas em data/posts.json
-- cutoff: se search é simple, então só aceita se a soma dos pesos das keywords truncado para inteiro presente no texto não é menor que cutoff, senão se é ml todos os posts com peso maior ou igual a cutoff são os únicos exemplos que podem ser aceitos (todos os outros não são aceitos) no classificador
+- cutoff: se search é "simple", então só aceita se a soma dos pesos das keywords truncado para inteiro presente no texto não é menor que cutoff, senão se é "ml" todos os posts do banco de dados com peso maior ou igual a cutoff são os únicos exemplos que podem ser aceitos (todos os outros não são aceitos) no classificador
 
 3. abra o terminal e insira: python3 bot.py
 
