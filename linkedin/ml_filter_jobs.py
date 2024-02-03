@@ -1,14 +1,12 @@
-from filter_jobs import filter_jobs
+from .filter_jobs import filter_jobs
+from sklearn.neural_network import MLPClassifier
+from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import make_pipeline
+from models import DB
+from utils import Match
 
 class ml_filter_jobs(filter_jobs):
     def __init__(self, cutoff):
-        from sklearn.neural_network import MLPClassifier
-        from sklearn.preprocessing import StandardScaler
-        #from sklearn.model_selection import train_test_split
-        #from sklearn.metrics import r2_score
-        from sklearn.pipeline import make_pipeline
-        from DB import DB
-        from matches import Match
 
         super().__init__(1.0)
 

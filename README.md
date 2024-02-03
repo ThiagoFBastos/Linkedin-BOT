@@ -5,17 +5,17 @@ Há duas variações: uma que usa uma tabela com keywords que serão as únicas 
 sua nota, de 1 (muito ruim) a 5 (muito bom), baseada somente nessas keywords, que serão usadas em um classificador.
 
 ## Requisitos
-
-- biblioteca [linkedin-api](https://github.com/tomquirk/linkedin-api)
-- biblioteca [unidecode](https://pypi.org/project/Unidecode/)
-- biblioteca [pandas](https://pandas.pydata.org/)
-- biblioteca [scikit-learn](https://scikit-learn.org/stable/)
 - [docker](https://www.docker.com/)
+
+## Instalação
+1. python3 -m venv env
+2. source ./env/bin/activate ou \env\Scripts\activate no windows
+3. pip install -r requirements.txt
 
 ## Uso
 
 1. abra o terminal e insira: docker compose up
-2. edite o arquivo params.json
+2. edite o arquivo params.json na pasta /input
     ```
         {
             "username" : "thiago.com",
@@ -54,13 +54,13 @@ sua nota, de 1 (muito ruim) a 5 (muito bom), baseada somente nessas keywords, qu
 - workplaceType: 1 (Presencial), 2 (Remoto), 3 (Híbrido)
 - distance: raio da busca (default é 25)
 - listed_at: número de segundos desde a publicação
-- output: arquivo csv com os dados dos posts
-- search: simple se usa a tabela skills.csv que contém uma das keywords cadastradas em tmp/keywords.json juntamente com o seu peso ou se usa o dataset de exemplos cadastradas em tmp/posts.json
+- output: arquivo csv com os dados dos jobs posts encontrados e ficará na pasta /output
+- search: simple se usa a tabela skills.csv que está na pasta /input que contém algumas keywords cadastradas em data/keywords.json juntamente com o seu peso ou se usa o dataset de exemplos cadastradas em data/posts.json
 - cutoff: se search é simple, então só aceita se a soma dos pesos das keywords truncado para inteiro presente no texto não é menor que cutoff, senão se é ml todos os posts com peso maior ou igual a cutoff são os únicos exemplos que podem ser aceitos (todos os outros não são aceitos) no classificador
 
 3. abra o terminal e insira: python3 bot.py
 
-4. espere terminar e abra o arquivo de saída (output). Ele contém algumas informações do post:
+4. espere terminar e abra o arquivo de saída (definido como "output" em params.json) na pasta output. Ele contém algumas informações do post:
 - urn_id: id do post
 - jobtitle: título do post
 - url: url do post
@@ -75,9 +75,9 @@ sua nota, de 1 (muito ruim) a 5 (muito bom), baseada somente nessas keywords, qu
 - applyMethod: url da página de aplicação da empresa
 
 ## Editar o banco de dados
-Para construir o arquivo linkedin.sql: vá em tmp, abra o terminal e digite python3 sql_builder.py
+Para construir o arquivo linkedin.sql: vá em data, abra o terminal e digite python3 sql_builder.py
 
-Na pasta tmp há alguns arquivos .json com dados para o banco de dados:
+Na pasta /data há alguns arquivos .json com dados para o banco de dados:
 - keywords.json: com as keywords e suas variações aceitas (que serão usadas para identificar a keyword) com o seguinte formato:
 ```
 "javascript" : ["javascript", "js", "java script"]

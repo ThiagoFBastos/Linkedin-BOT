@@ -10,6 +10,6 @@ services:
       POSTGRES_PASSWORD: 1123581321345589
     volumes:
       - ./dbdata:/var/lib/postgresql/data
-      - ./linkedin.sql:/docker-entrypoint-initdb.d/linkedin.sql
+      - ./models/linkedin.sql:/docker-entrypoint-initdb.d/linkedin.sql
     ports:
       - 5432:5432

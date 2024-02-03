@@ -75,13 +75,11 @@ ALTER TABLE jobs_keywords
     ADD CONSTRAINT fk_jobs_keywords_key FOREIGN KEY (key_id) REFERENCES keywords (id);
 """
 
-with open('../linkedin.sql', 'w') as fp:
+with open('../models/linkedin.sql', 'w') as fp:
     keywords = write_keywords()
     jobs = write_jobs()
     variants = write_variants()
     dependencies = write_dependencies()
     jobs_keywords = write_jobs_keywords()
-
     template = template.format(keywords, variants, dependencies, jobs, jobs_keywords)
-
     fp.write(f'{template}\n')

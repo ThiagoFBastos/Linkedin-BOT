@@ -1,4 +1,6 @@
 from linkedin_api import Linkedin as BaseLinkedin
+from .simple_filter_jobs import simple_filter_jobs
+from .ml_filter_jobs import ml_filter_jobs
 
 class Linkedin(BaseLinkedin):
     """
@@ -16,10 +18,8 @@ class Linkedin(BaseLinkedin):
         self.MAX_PAGE_COUNT = 7
 
         if search == 'simple':
-            from simple_filter_jobs import simple_filter_jobs
             self._filter_jobs = simple_filter_jobs(cutoff)
         elif search == 'ml':
-            from ml_filter_jobs import ml_filter_jobs
             self._filter_jobs = ml_filter_jobs(cutoff)
         else:
             raise Exception(f'atributo search de params.json contém valor desconhecido: {search}')

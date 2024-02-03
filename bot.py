@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 
 import sys
+from linkedin import Linkedin
+from pandas import DataFrame
+import json
 
-PARAMS = 'params.json' if sys.argv[-1] != 'LOCAL' else 'fake_params.json'
+PARAMS = 'input/params.json' if sys.argv[-1] != 'LOCAL' else 'input/fake_params.json'
 
 def main():
-    from linkedin import Linkedin
-    from pandas import DataFrame
-    import json
-
     with open(PARAMS, 'r') as fp:
         params = json.load(fp)
 
@@ -34,7 +33,7 @@ def main():
         if len(jobs):
             jobs_df = DataFrame(jobs.values())
             jobs_df = jobs_df.sort_values(by = ['score'], ascending = False)
-            jobs_df.to_csv(f'{output}.csv', index = False)
+            jobs_df.to_csv(f'output/{output}.csv', index = False)
  
 if __name__ == '__main__':
     main()

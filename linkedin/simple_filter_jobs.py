@@ -1,4 +1,7 @@
-from filter_jobs import filter_jobs
+from .filter_jobs import filter_jobs
+from pandas import read_csv
+from models import DB
+from utils import Match
 
 class simple_filter_jobs(filter_jobs):
     """
@@ -7,9 +10,7 @@ class simple_filter_jobs(filter_jobs):
     """
 
     def __init__(self, cutoff):
-        from pandas import read_csv
-        from DB import DB
-        from matches import  Match
+        
 
         super().__init__(cutoff)
 
@@ -22,7 +23,7 @@ class simple_filter_jobs(filter_jobs):
             which_key = dict(zip(self._variants_name, self._variants_key))
 
             # pegando as boas keywords
-            good_keywords_df = read_csv('skills.csv') # keyword, weight
+            good_keywords_df = read_csv('./input/skills.csv') # keyword, weight
             self._accepted_keywords = dict([(which_key[self._normalize_text(row.keyword)], row.weight) for row in good_keywords_df.itertuples()])
 
     """
