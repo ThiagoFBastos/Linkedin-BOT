@@ -1,7 +1,7 @@
 keyword,weight
 excel,0
 python,50
-c++,15
+c++,25
 C language,15
 javascript,10
 sql,25
@@ -77,3 +77,5 @@ pthread,0
 openmp,0
 openmpi,0
 ci/cd,0
+fastapi,50
+flask,50

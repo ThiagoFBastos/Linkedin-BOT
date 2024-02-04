@@ -15,7 +15,7 @@ class Linkedin(BaseLinkedin):
 
         super().__init__(*args, **kwargs)
 
-        self.MAX_PAGE_COUNT = 7
+        self.MAX_PAGE_COUNT = 1
 
         if search == 'simple':
             self._filter_jobs = simple_filter_jobs(cutoff)
@@ -79,7 +79,8 @@ class Linkedin(BaseLinkedin):
                 res = self.client.session.get(url, timeout = 5)
 
                 if res.status_code != 200:
-                    return None
+                    print('STATUS = ', res.status_code)
+                    continue
 
                 data = res.json()
 
@@ -106,6 +107,8 @@ class Linkedin(BaseLinkedin):
             except Exception as ex:
                 print(ex)
 
+            print('NONE')
+
     """
         descrição
             retorna informações de jobs posts dada algumas keywords
@@ -127,6 +130,7 @@ class Linkedin(BaseLinkedin):
 
         discardCompanies = kwargs.get('discardCompanies')
         kwargs.pop('discardCompanies')
+        count_results = 0
 
         for i, key in enumerate(keywords):
             start = 0
@@ -147,6 +151,7 @@ class Linkedin(BaseLinkedin):
                         urn_id = job['urn_id']
 
                         if urn_id not in jobs:
+                            count_results += 1
                             data = self.get_job(urn_id) # algumas vezes lança exceção
 
                             if self._filter_jobs.filter(data, job, discardCompanies = discardCompanies):
@@ -166,6 +171,8 @@ class Linkedin(BaseLinkedin):
                         break
 
                 start += self.MAX_PAGE_COUNT
+        
+        print(f'foram encontrados {count_results} resultados e dentre eles foram selecionados {collected}')
 
         return jobs
 
