@@ -79,7 +79,6 @@ class Linkedin(BaseLinkedin):
                 res = self.client.session.get(url, timeout = 5)
 
                 if res.status_code != 200:
-                    print('STATUS = ', res.status_code)
                     continue
 
                 data = res.json()
@@ -106,8 +105,6 @@ class Linkedin(BaseLinkedin):
                 return jobs
             except Exception as ex:
                 print(ex)
-
-            print('NONE')
 
     """
         descrição
